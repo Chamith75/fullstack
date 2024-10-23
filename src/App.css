@@ -1,38 +1,55 @@
-.App {
+
+.descrption-home{
+  
+    
+  padding-top: 10rem;
   text-align: center;
+  margin-left: 2rem;
+  color: #333333;
+  
+}
+.nav li {
+  margin-right: 20px; /* Adjust the value as needed */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav li:last-child {
+  margin-right: 0; /* Remove margin from the last item if desired */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.login-background{
+  
+background-size: cover; /* Makes the background image cover the entire screen */
+background-position: center; /* Centers the background image */
+background-repeat: no-repeat; /* Prevents the background image from repeating */
+
+height: 100vh; /* Ensures the body height is at least the viewport height */
+margin: 0; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.login-card{
+  background-color: rgba(255, 255, 255, 0.5); /* White color with 50% opacity */
+border: 1px solid rgba(0, 0, 0, 0.1); /* Light border for visibility */
+border-radius: 8px; /* Rounded corners */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+padding: 16px; /* Space inside the card */
+margin: 16px; /* Space outside the card */
+}
+
+.card-login{
+ border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  padding: 10px; /* Padding inside the card */
+  margin: 16px; /* Margin outside the card */
+  height: 400px; /* Fixed height for the card */  
+  display: grid;
+  place-items: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  top: 50%;
+  left: 50%;
+}
+.form-floating {
+  margin-bottom: 16px; /* Add spacing between form fields */
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
